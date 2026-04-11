@@ -9,18 +9,22 @@ POST http://localhost:5000/products
 Content-Type: application/json
 
 {
-    "name": "Sepatu Lari",
-    "price": 750000
+    "name": "Logitech G Pro",
+    "category": "Elektronik",
+    "price": 1500000,
+    "stock": 10
 }
 
 ### Update Product
-PATCH http://localhost:5000/products/1
+PATCH http://localhost:5000/products/4
 Content-Type: application/json
 
 {
     "name": "Sepatu Lari Pro",
-    "price": 850000
+    "category": "Sepatu",
+    "price": 850000,
+    "stock": 8
 }
 
 ### Delete Product
-DELETE http://localhost:5000/products/2
+DELETE http://localhost:5000/products/3
