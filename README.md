@@ -1,36 +1,28 @@
-# Fullstack CRUD Produk - Node.js, Express, React & MySQL
+# Fullstack CRUD - Node.js & React MySQL
 
-Aplikasi manajemen data produk sederhana namun fungsional yang dibangun dengan tumpukan teknologi modern. Proyek ini mencakup operasional CRUD (Create, Read, Update, Delete) lengkap dengan integrasi database MySQL.
+Aplikasi manajemen produk sederhana dengan fitur CRUD lengkap dan format mata uang otomatis.
 
-## 🚀 Fitur Utama
+## ✨ Fitur
+- **CRUD Lengkap:** Tambah, Tampil, Edit, dan Hapus data produk.
+- **Smart Input:** Format Rupiah otomatis saat mengisi harga.
+- **Optimistic UI:** Penghapusan data terasa instan di sisi pengguna.
+- **Modern UI:** Menggunakan Tailwind CSS v4.
 
-- **Dashboard Produk:** Menampilkan daftar semua produk dari database.
-- **Tambah Produk:** Form input dengan fitur format mata uang (Rupiah) otomatis saat mengetik.
-- **Edit Produk:** Memperbarui informasi produk yang sudah ada.
-- **Hapus Produk:** Menghapus data secara instan dengan optimasi state (Optimistic UI).
-- **Responsive UI:** Tampilan bersih dan modern menggunakan Tailwind CSS v4.
+## 🛠️ Tech Stack
+- **Frontend:** React (Vite), Tailwind CSS v4, Axios, React Router.
+- **Backend:** Node.js, Express, MySQL2 (Raw SQL).
+- **Database:** MySQL.
 
-## 🛠️ Teknologi yang Digunakan
+## 🚀 Cara Menjalankan
 
-### Frontend
-- **React.js** (Vite)
-- **Tailwind CSS v4** (Styling)
-- **React Router Dom** (Navigasi)
-- **Axios** (HTTP Client)
-
-### Backend
-- **Node.js**
-- **Express.js**
-- **Sequelize** (ORM untuk MySQL)
-- **Cors**
-
-### Database
-- **MySQL**
-
-## 📦 Struktur Folder
-
-```text
-.
-├── backend/      # Source code server (Express & Sequelize)
-├── frontend/     # Source code client (React & Tailwind)
-└── .gitignore
+1. **Database:** Buat database bernama `crud_db` di MySQL.
+2. **Backend:**
+   ```bash
+   cd backend
+   npm install
+   npm run dev
+2. **Frontend:**
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
