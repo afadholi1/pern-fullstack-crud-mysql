@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-// Tambahkan import ProductList, AddProduct, dll di sini
+import ProductList from './pages/ProductList';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Navbar />
         <div className="container mx-auto mt-10 px-4">
           <Routes>
-            <Route path="/" element={<div className="text-xl font-semibold text-center">Halaman List Produk (Segera Hadir)</div>} />
+            <Route path="/" element={<ProductList />} />
             <Route path="/add" element={<div className="text-xl font-semibold text-center">Halaman Tambah Produk (Segera Hadir)</div>} />
           </Routes>
         </div>
