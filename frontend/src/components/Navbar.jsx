@@ -9,7 +9,7 @@ const Navbar = () => {
           to="/"
           className="font-bold text-2xl text-blue-600 tracking-tight"
         >
-          JBTV <span className="text-gray-400 font-light">Admin</span>
+          MYFADH <span className="text-gray-400 font-light">Admin</span>
         </Link>
       </div>
       <div className="space-x-6 font-medium text-gray-600">
